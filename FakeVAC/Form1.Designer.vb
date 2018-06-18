@@ -23,29 +23,31 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.RadVAC = New System.Windows.Forms.RadioButton()
+        Me.RadGameBan = New System.Windows.Forms.RadioButton()
+        Me.RadGameVac = New System.Windows.Forms.RadioButton()
         Me.TxtVacDays = New System.Windows.Forms.TextBox()
         Me.TxtOnlineDays = New System.Windows.Forms.TextBox()
         Me.TxtGameBansDays = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.BtnCopy = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.PicCopied = New System.Windows.Forms.PictureBox()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.BtnNew = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.BtnHelp = New System.Windows.Forms.Button()
         Me.ChkGameBans = New System.Windows.Forms.CheckBox()
         Me.ChkVacs = New System.Windows.Forms.CheckBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.RadEn = New System.Windows.Forms.RadioButton()
+        Me.RadAr = New System.Windows.Forms.RadioButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TxtUrl = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.PicCopied, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -53,44 +55,44 @@ Partial Class Form1
         Me.GroupBox4.SuspendLayout()
         Me.SuspendLayout()
         '
-        'RadioButton1
+        'RadVAC
         '
-        Me.RadioButton1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Font = New System.Drawing.Font("Tahoma", 10.0!)
-        Me.RadioButton1.Location = New System.Drawing.Point(21, 23)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(94, 25)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "VAC ban"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RadVAC.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.RadVAC.AutoSize = True
+        Me.RadVAC.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.RadVAC.Location = New System.Drawing.Point(21, 23)
+        Me.RadVAC.Name = "RadVAC"
+        Me.RadVAC.Size = New System.Drawing.Size(94, 25)
+        Me.RadVAC.TabIndex = 0
+        Me.RadVAC.TabStop = True
+        Me.RadVAC.Text = "VAC ban"
+        Me.RadVAC.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'RadGameBan
         '
-        Me.RadioButton2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Font = New System.Drawing.Font("Tahoma", 10.0!)
-        Me.RadioButton2.Location = New System.Drawing.Point(21, 53)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(106, 25)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Game ban"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RadGameBan.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.RadGameBan.AutoSize = True
+        Me.RadGameBan.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.RadGameBan.Location = New System.Drawing.Point(21, 53)
+        Me.RadGameBan.Name = "RadGameBan"
+        Me.RadGameBan.Size = New System.Drawing.Size(106, 25)
+        Me.RadGameBan.TabIndex = 1
+        Me.RadGameBan.TabStop = True
+        Me.RadGameBan.Text = "Game ban"
+        Me.RadGameBan.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'RadGameVac
         '
-        Me.RadioButton3.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Font = New System.Drawing.Font("Tahoma", 10.0!)
-        Me.RadioButton3.Location = New System.Drawing.Point(21, 83)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(158, 25)
-        Me.RadioButton3.TabIndex = 2
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "VAC && Game ban"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.RadGameVac.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.RadGameVac.AutoSize = True
+        Me.RadGameVac.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.RadGameVac.Location = New System.Drawing.Point(21, 83)
+        Me.RadGameVac.Name = "RadGameVac"
+        Me.RadGameVac.Size = New System.Drawing.Size(158, 25)
+        Me.RadGameVac.TabIndex = 2
+        Me.RadGameVac.TabStop = True
+        Me.RadGameVac.Text = "VAC && Game ban"
+        Me.RadGameVac.UseVisualStyleBackColor = True
         '
         'TxtVacDays
         '
@@ -116,19 +118,19 @@ Partial Class Form1
         Me.TxtGameBansDays.Size = New System.Drawing.Size(49, 24)
         Me.TxtGameBansDays.TabIndex = 6
         '
-        'Button1
+        'BtnCopy
         '
-        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button1.AutoSize = True
-        Me.Button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Button1.Enabled = False
-        Me.Button1.Font = New System.Drawing.Font("Tahoma", 10.0!)
-        Me.Button1.Location = New System.Drawing.Point(54, 9)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(56, 31)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Copy"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnCopy.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnCopy.AutoSize = True
+        Me.BtnCopy.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.BtnCopy.Enabled = False
+        Me.BtnCopy.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.BtnCopy.Location = New System.Drawing.Point(54, 9)
+        Me.BtnCopy.Name = "BtnCopy"
+        Me.BtnCopy.Size = New System.Drawing.Size(56, 31)
+        Me.BtnCopy.TabIndex = 8
+        Me.BtnCopy.Text = "Copy"
+        Me.BtnCopy.UseVisualStyleBackColor = True
         '
         'Label2
         '
@@ -162,9 +164,9 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Controls.Add(Me.RadioButton3)
+        Me.GroupBox1.Controls.Add(Me.RadGameBan)
+        Me.GroupBox1.Controls.Add(Me.RadVAC)
+        Me.GroupBox1.Controls.Add(Me.RadGameVac)
         Me.GroupBox1.Location = New System.Drawing.Point(17, 46)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(219, 124)
@@ -174,8 +176,8 @@ Partial Class Form1
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.PicCopied)
-        Me.GroupBox2.Controls.Add(Me.Button2)
-        Me.GroupBox2.Controls.Add(Me.Button1)
+        Me.GroupBox2.Controls.Add(Me.BtnNew)
+        Me.GroupBox2.Controls.Add(Me.BtnCopy)
         Me.GroupBox2.Location = New System.Drawing.Point(17, 173)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(219, 43)
@@ -195,26 +197,27 @@ Partial Class Form1
         Me.PicCopied.TabStop = False
         Me.PicCopied.Visible = False
         '
-        'Button2
+        'BtnNew
         '
-        Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button2.AutoSize = True
-        Me.Button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Button2.Font = New System.Drawing.Font("Tahoma", 10.0!)
-        Me.Button2.Location = New System.Drawing.Point(117, 9)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(53, 31)
-        Me.Button2.TabIndex = 9
-        Me.Button2.Text = "New"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BtnNew.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnNew.AutoSize = True
+        Me.BtnNew.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.BtnNew.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.BtnNew.Location = New System.Drawing.Point(117, 9)
+        Me.BtnNew.Name = "BtnNew"
+        Me.BtnNew.Size = New System.Drawing.Size(53, 31)
+        Me.BtnNew.TabIndex = 9
+        Me.BtnNew.Text = "New"
+        Me.BtnNew.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.BtnHelp)
         Me.GroupBox3.Controls.Add(Me.ChkGameBans)
         Me.GroupBox3.Controls.Add(Me.ChkVacs)
         Me.GroupBox3.Controls.Add(Me.Label6)
-        Me.GroupBox3.Controls.Add(Me.RadioButton5)
-        Me.GroupBox3.Controls.Add(Me.RadioButton4)
+        Me.GroupBox3.Controls.Add(Me.RadEn)
+        Me.GroupBox3.Controls.Add(Me.RadAr)
         Me.GroupBox3.Controls.Add(Me.TxtGameBansDays)
         Me.GroupBox3.Controls.Add(Me.TxtOnlineDays)
         Me.GroupBox3.Controls.Add(Me.TxtVacDays)
@@ -226,6 +229,25 @@ Partial Class Form1
         Me.GroupBox3.Size = New System.Drawing.Size(410, 170)
         Me.GroupBox3.TabIndex = 3
         Me.GroupBox3.TabStop = False
+        '
+        'BtnHelp
+        '
+        Me.BtnHelp.BackColor = System.Drawing.Color.Transparent
+        Me.BtnHelp.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnHelp.FlatAppearance.BorderSize = 0
+        Me.BtnHelp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
+        Me.BtnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnHelp.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnHelp.ForeColor = System.Drawing.Color.Black
+        Me.BtnHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BtnHelp.Location = New System.Drawing.Point(372, 132)
+        Me.BtnHelp.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnHelp.Name = "BtnHelp"
+        Me.BtnHelp.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnHelp.Size = New System.Drawing.Size(37, 36)
+        Me.BtnHelp.TabIndex = 21
+        Me.BtnHelp.Text = "?"
+        Me.BtnHelp.UseVisualStyleBackColor = False
         '
         'ChkGameBans
         '
@@ -259,32 +281,33 @@ Partial Class Form1
         Me.Label6.TabIndex = 18
         Me.Label6.Text = "Language"
         '
-        'RadioButton5
+        'RadEn
         '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Font = New System.Drawing.Font("Tahoma", 10.0!)
-        Me.RadioButton5.Location = New System.Drawing.Point(281, 132)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(52, 25)
-        Me.RadioButton5.TabIndex = 17
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "EN"
-        Me.RadioButton5.UseVisualStyleBackColor = True
+        Me.RadEn.AutoSize = True
+        Me.RadEn.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.RadEn.Location = New System.Drawing.Point(281, 132)
+        Me.RadEn.Name = "RadEn"
+        Me.RadEn.Size = New System.Drawing.Size(52, 25)
+        Me.RadEn.TabIndex = 17
+        Me.RadEn.TabStop = True
+        Me.RadEn.Text = "EN"
+        Me.RadEn.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'RadAr
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Font = New System.Drawing.Font("Tahoma", 10.0!)
-        Me.RadioButton4.Location = New System.Drawing.Point(205, 132)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(53, 25)
-        Me.RadioButton4.TabIndex = 16
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "AR"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.RadAr.AutoSize = True
+        Me.RadAr.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.RadAr.Location = New System.Drawing.Point(205, 132)
+        Me.RadAr.Name = "RadAr"
+        Me.RadAr.Size = New System.Drawing.Size(53, 25)
+        Me.RadAr.TabIndex = 16
+        Me.RadAr.TabStop = True
+        Me.RadAr.Text = "AR"
+        Me.RadAr.UseVisualStyleBackColor = True
         '
         'GroupBox4
         '
+        Me.GroupBox4.Controls.Add(Me.Label1)
         Me.GroupBox4.Controls.Add(Me.Label7)
         Me.GroupBox4.Controls.Add(Me.TxtUrl)
         Me.GroupBox4.Location = New System.Drawing.Point(17, 4)
@@ -309,6 +332,19 @@ Partial Class Form1
         Me.TxtUrl.Name = "TxtUrl"
         Me.TxtUrl.Size = New System.Drawing.Size(513, 24)
         Me.TxtUrl.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.White
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.Label1.ForeColor = System.Drawing.Color.Red
+        Me.Label1.Location = New System.Drawing.Point(534, 14)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(94, 21)
+        Me.Label1.TabIndex = 22
+        Me.Label1.Text = "Invalid URL"
+        Me.Label1.Visible = False
         '
         'Form1
         '
@@ -336,13 +372,13 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
+    Friend WithEvents RadVAC As RadioButton
+    Friend WithEvents RadGameBan As RadioButton
+    Friend WithEvents RadGameVac As RadioButton
     Friend WithEvents TxtVacDays As TextBox
     Friend WithEvents TxtOnlineDays As TextBox
     Friend WithEvents TxtGameBansDays As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents BtnCopy As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
@@ -350,13 +386,15 @@ Partial Class Form1
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents RadioButton5 As RadioButton
-    Friend WithEvents RadioButton4 As RadioButton
+    Friend WithEvents RadEn As RadioButton
+    Friend WithEvents RadAr As RadioButton
     Friend WithEvents GroupBox4 As GroupBox
     Friend WithEvents Label7 As Label
     Friend WithEvents TxtUrl As TextBox
-    Friend WithEvents Button2 As Button
+    Friend WithEvents BtnNew As Button
     Friend WithEvents ChkGameBans As CheckBox
     Friend WithEvents ChkVacs As CheckBox
     Friend WithEvents PicCopied As PictureBox
+    Friend WithEvents BtnHelp As Button
+    Friend WithEvents Label1 As Label
 End Class
