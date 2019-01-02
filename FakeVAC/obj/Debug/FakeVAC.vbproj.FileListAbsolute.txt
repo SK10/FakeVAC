@@ -1,11 +1,9 @@
-C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\FakeVAC.exe.config
-C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\FakeVAC.exe
-C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\FakeVAC.pdb
-C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\FakeVAC.xml
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.Form1.resources
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.Resources.resources
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.vbproj.GenerateResource.Cache
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.vbproj.CoreCompileInputs.cache
+C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.vbprojAssemblyReference.cache
+C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.FormBrowser.resources
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.exe
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.xml
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.pdb
