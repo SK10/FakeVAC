@@ -7,3 +7,10 @@ C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.FormBrowser.resour
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.exe
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.xml
 C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.pdb
+C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\FakeVAC.exe.config
+C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\FakeVAC.exe
+C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\FakeVAC.pdb
+C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\FakeVAC.xml
+C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\Geckofx-Core.dll
+C:\Users\Abood\source\repos\FakeVAC\FakeVAC\bin\Debug\Geckofx-Winforms.dll
+C:\Users\Abood\source\repos\FakeVAC\FakeVAC\obj\Debug\FakeVAC.vbproj.CopyComplete

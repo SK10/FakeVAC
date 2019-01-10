@@ -13,7 +13,7 @@ Public Class Form1
     Dim multiGameBans As String
     Public finalHtmlString As String
     Dim docCompleted As Boolean
-    Dim regex As Regex = New Regex("(?i:^https?:\/\/(?:www\.)?steamcommunity\.com\/(id\/([^/\s]*)|profiles\/([^/\s]*))+$)")
+    Dim regex As Regex = New Regex("(?i:^https?:\/\/(?:www\.)?steamcommunity\.com\/(id\/([^/\s]*)|profiles\/([^/\s]*))+/?$)")
     Dim match As Match
 
     Private Sub txtBoxes_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtGameBansDays.KeyPress, txtOnlineDays.KeyPress, txtVacDays.KeyPress
