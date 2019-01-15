@@ -1,14 +1,18 @@
 # FakeVAC
 
-This application creates fake VAC/Game ban to prank your friends.
+This application is used to create a fake VAC ban on any steam profile (private profiles excluded) then take screenshot of the profile.
 
 ## Getting Started
 
-This tutorial will explain how to use the application
+The application is fairly simple here is a small tutorial on how to use it.
+
+![](/Tutorial.gif)
+
+When this finish, the application will open the pictures libaray with the screenshot in it.
 
 ### Installing
 
-The application is portable so you don't have to install it on your system just download the [release](https://github.com/SK10/FakeVAC/releases), unzip it and run it.
+The application is portable, you don't have to install it on your system, just download the [release](https://github.com/SK10/FakeVAC/releases), unzip it and run it.
 
 ## Authors
 
