@@ -328,4 +328,9 @@ Public Class Form1
         finalHtmlString = vacGameBanString
     End Sub
     '===================================================================================================>
+
+    Private Sub btnHelp_Click(sender As Object, e As EventArgs) Handles btnHelp.Click
+        FormHelp.Show()
+    End Sub
+
 End Class
