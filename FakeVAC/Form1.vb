@@ -72,7 +72,8 @@ Public Class Form1
         'Checking If "radGameVac" is checked to enable the buttons needed.
         If radGameVac.Checked = True Then
             EnableForVac(True)
-            EnableForGameBan(True)
+            enableForGameBan(True)
+            txtVacDays.Enabled = False
         Else
             EnableForVac(False)
             EnableForGameBan(False)
@@ -239,7 +240,7 @@ Public Class Form1
     '===================================================================================================>
 
     '<================================== Validate an input ==============================================
-    'InputControl is mostly a textbox control
+    'InputControl is textbox most of the times
     'Output is true/false depending on the textbox content
 
     Private Function valueFound(inputControl As String)
